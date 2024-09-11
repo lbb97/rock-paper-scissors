@@ -11,7 +11,7 @@ function getComputerChoice() {
 };
 
 function getHumanChoice() {
-    let humanChoice = parseInt(prompt("Press F12 to see what's going on\nNum 1 for *ROCK*, Num 2 for *PAPER* and Num 3 for *SCISSORS*.\nYour choice?", ""));
+    let humanChoice = parseInt(prompt("Press F12 to see what's going on\nNum 1 for ROCK, Num 2 for PAPER and Num 3 for SCISSORS.\nYour choice?", ""));
 
     if (humanChoice === 1) {
         return "Rock"
