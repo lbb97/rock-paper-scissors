@@ -4,8 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project: Rock Paper Scissors</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Monoton&family=Rammetto+One&family=Fugaz+One&family=Cookie&family=Creepster&family=Shadows+Into+Light&family=Silkscreen:wght@400;700&family=Zeyada&display=swap">
 </head>
-<body>
+<body class="game-day">
+    <p class="intro">a simple game of</p>
+
+    <h1>ROCK 🪨 PAPER 🧻 SCISSORS ✂</h1>
+
+    <p class="score">🏁SCORE🏅</p>
+  
+    <div class="score-board">
+        <p class="human">Hooman!</p>
+        <p class="human-score"></p>
+        <p class="versus">VS.</p>
+        <p class="pc-score"></p>
+        <p class="pc">PC!</p>
+    </div>
+
+    <p id="game-text"></p>
+
+    <div class="choices">
+        <button id="rock">ROCK</button>
+        <button id="paper">PAPER</button>
+        <button id="scissors">SCISSORS</button>
+    </div>
+    
+    <button id="reset">↺</button>
+    <label for="reset">Reset</label>
+    
     <script src="./script/script.js"></script>
 </body>
 </html>
