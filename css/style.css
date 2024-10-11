@@ -17,7 +17,7 @@
 
 button {
 	margin: 15px;
-	width: 120px; /* Keep the width fixed for larger screens */
+	width: 120px;
 	padding: 10px;
 	border: 2px solid gray;
 	border-radius: 5%;
@@ -57,12 +57,12 @@ label {
 }
 
 .human-score {
-	width: 40px; /* Increase score width for better visibility */
+	width: 40px;
 	background: lightgray;
 }
 
 .pc-score {
-	width: 40px; /* Increase score width for better visibility */
+	width: 40px;
 	background: lightgreen;
 }
 
@@ -102,27 +102,27 @@ h1 {
 /* Media query to make it more responsive on smaller screens */
 @media (max-width: 600px) {
 	.score-board {
-		flex-direction: column; /* Stack the scores vertically on small screens */
+		flex-direction: column;
 	}
 
 	button {
-		width: 90%; /* Make buttons fill more width on small screens */
-		max-width: none; /* Allow buttons to grow beyond 200px if necessary */
+		width: 90%;
+		max-width: none;
 	}
 
 	#reset {
-		font-size: 40px; /* Reduce the reset button font size for smaller screens */
+		font-size: 40px;
 	}
 
 	#game-text {
-		font-size: 16px; /* Slightly smaller text for mobile */
+		font-size: 16px;
 	}
 
 	h1, .pc, .human, .score {
-		font-size: 24px; /* Adjust font sizes for mobile */
+		font-size: 24px;
 	}
 
 	.human-score, .pc-score {
-		width: 30px; /* Make scores smaller to fit mobile screens */
+		width: 30px;
 	}
 }
